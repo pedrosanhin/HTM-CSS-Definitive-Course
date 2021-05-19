@@ -1,0 +1,18 @@
+/* Selectores de elementos por defecto */
+p {
+    color: blue;
+    font-size: 70px;
+}
+
+/* Selectores por clase */
+/* Empizan por un punto */
+.parrafo {
+    color: red;
+}
+
+/* Selectores por ID */
+/* Empiezan por un # */
+#texto {
+    color: grey;
+    font-size: 24px;
+}
