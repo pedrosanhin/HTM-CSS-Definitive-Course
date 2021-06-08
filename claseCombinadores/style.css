@@ -1,3 +1,21 @@
-h2 + p {
+/* ~ Signo equivalente o tilde */
+/* Hermano General: modifica todas las etiquetas de p que tengan de hermano un h2 */
+h2 ~ p {
   color: red;
+}
+
+/* + Signo de mas */
+/* Hermano Cercano: modifica todas las etiquetas de p que tengan de hermano inmediato o cercano a un h2 */
+h2 + p {
+  color: green;
+}
+
+/* > Signo mayor que */
+/* Hijo directo: Las etiquetas hijas p que tengan un padre div, agregar estilos*/
+div > p {
+  color: blue;
+}
+
+/* Hijo descendiente: Todas las etiquetas p que esten dentro de una etiqueta div */
+div p {
 }
