@@ -1,0 +1,10 @@
+/* EM = es un acronimo de elemento 
+y lo que hace es tomar el tamaño de fuente 
+que tenga el padre directo */
+.text-container {
+  font-size: 1.5em;
+}
+
+.text-container div {
+  font-size: 1.5em;
+}
