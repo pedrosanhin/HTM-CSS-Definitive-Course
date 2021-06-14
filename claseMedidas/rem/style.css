@@ -5,6 +5,7 @@
   padding: 0;
 }
 
+/* Al poner esto cada rem vale 10 px */
 html {
   font-size: 62.5%;
 }
