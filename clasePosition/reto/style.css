@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parent-box {
+  border: 2px black ridge;
+  display: inline-block;
+  height: 504px;
+  width: 324px;
+}
+
+.box {
+  position: absolute;
+  margin: 0 auto;
+  background-color: orange;
+  height: 500px;
+  width: 320px;
+}
+
+#title-box {
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  background-color: rgb(255, 120, 0);
+  text-align: center;
+  padding: 0 auto;
+}
+
+#desc-box {
+  top: 2rem;
+}
+
+.character-photo {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
