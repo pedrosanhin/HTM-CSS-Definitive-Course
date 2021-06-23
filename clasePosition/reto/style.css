@@ -6,11 +6,11 @@
 
 html {
   font-size: 62.5%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .parent-box {
-  border: 2px black ridge;
   display: inline-block;
   height: 504px;
   width: 324px;
@@ -30,16 +30,49 @@ html {
   position: relative;
   background-color: rgb(255, 120, 0);
   text-align: center;
-  padding: 0 auto;
+  border-radius: 10px;
+}
+
+#title-box {
+  padding: 1.2rem 0;
 }
 
 #desc-box {
   top: 2rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(255, 120, 0);
+}
+
+#desc-box p {
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .character-photo {
+  display: block;
+  top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.container-data{
+  display: flex;
+}
+
+.container-mini-box{
+  padding: 11.5px 0;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgb(255, 190, 0);
+  width: 40%;
+  height: 50px;
+  text-align: center;
+  font-size: 1rem;
 }
