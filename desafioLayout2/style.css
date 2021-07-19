@@ -9,19 +9,22 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   height: 10vh;
   background-color: peachpuff;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 figure {
   margin: 0.2rem;
-}
-
-figure,
-nav {
-  display: inline-block;
 }
 
 figure img {
@@ -29,28 +32,32 @@ figure img {
   height: 50px;
 }
 
-nav {
-  position: absolute;
-  top: 1rem;
-  right: 1.5rem;
+ul {
+  display: flex;
 }
 
 li {
   list-style: none;
-  display: inline-block;
   margin: 1rem;
   font-size: 1.4rem;
 }
 
+main {
+  display: flex;
+}
+
 aside {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   width: 30vw;
   height: 60vh;
   background-color: green;
 }
 
-.left-box {
+.element {
   width: 80%;
-  height: 0rem;
   text-align: center;
   padding: 5.4rem 2rem;
   margin: 0.4rem 2.5rem;
@@ -60,31 +67,29 @@ aside {
 
 aside,
 section {
-  display: inline-block;
   height: 80vh;
 }
 
 section {
   width: 70vw;
-  position: absolute;
-  padding: 1rem;
   background-color: violet;
+  padding: 1rem;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
 }
 
 footer {
   background-color: yellow;
   height: 10vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-media {
-  position: relative;
-  left: 1.5rem;
-  top: 2rem;
-  display: inline-block;
+  padding: 1.5rem;
 }
 
 .info {
-  position: absolute;
-  right: 1.5rem;
-  bottom: 2.5rem;
+  padding: 1.5rem;
 }
