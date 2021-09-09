@@ -172,7 +172,7 @@ nav {
 
 footer {
   background-color: var(--primary-color);
-  height: 10vh;
+  height: 15vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

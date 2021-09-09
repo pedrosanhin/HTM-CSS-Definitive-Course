@@ -1,3 +1,15 @@
+header {
+  flex-direction: row;
+}
+
+.main-nav {
+  justify-content: flex-end;
+}
+
+.main-nav__item {
+  margin: 0 1rem;
+}
+
 .c1 {
   width: 100%;
 }
